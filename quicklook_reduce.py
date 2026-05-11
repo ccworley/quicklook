@@ -8,6 +8,7 @@ import scipy as sp
 import matplotlib.colors as colors
 from scipy.optimize import curve_fit
 
+# When doing develop take a branch in git, then make edits, then commit and push to the branch then commit to the repository (git push -u origin <branch-name>). Go into repository webpage and do merge request. assign Clare Worley as reviewer.
 
 # Function to extract target names and filenames from a directory of FITS files
 def get_files_types(raw_dir):
